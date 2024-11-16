@@ -1,8 +1,8 @@
-import './App.css'; // Ensure this line is presentimport React, { useState } from 'react';
-import CourseTypeForm from './CourseTypeForm';
+import React, { useState } from 'react'; // Import React and useState
+import './App.css'; // Import your CSS for styling
+import CourseTypeForm from './CourseTypeForm'; // Import custom components
 import CourseForm from './CourseForm';
 import RegistrationForm from './RegistrationForm';
-import './App.css'; // Optional: Import your CSS for styling
 
 const App = () => {
     const [courseTypes, setCourseTypes] = useState([]);
